@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Instagram Post Layout</title>
+  </head>
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+  <link rel="stylesheet" href="./style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet"
+  />
+  <body>
+    <article class="post">
+      <header class="post-header shell">
+        <div class="post-author">
+          <div class="post-author-icon">
+            <i class="fa-brands fa-html5"></i>
+          </div>
+          <div class="post-author-text">
+            <p class="post-author-title">HTML5</p>
+            <p class="post-author-name">Rigoberto</p>
+          </div>
+        </div>
+        <button type="button" class="post-menu">
+          <i class="fa-solid fa-ellipsis"></i>
+        </button>
+      </header>
+
+      <figure class="post-media">
+        <img src="./city-with-mountains-background.jpg" alt="" />
+      </figure>
+
+      <div class="post-actions shell">
+        <div class="post-actions-primary">
+          <button class="post-action-button">
+            <i class="fa-regular fa-heart"></i>
+          </button>
+
+          <button class="post-action-button" type="button" aria-label="Comment">
+            <i class="fa-regular fa-comment"></i>
+          </button>
+
+          <button class="post-action-button" type="button" aria-label="Share">
+            <i class="fa-regular fa-paper-plane"></i>
+          </button>
+        </div>
+
+        <div class="post-actions-save shell">
+          <button class="post-action-button">
+            <i class="fa-regular fa-bookmark"></i>
+          </button>
+        </div>
+      </div>
+      <div class="post-meta shell">
+        <p class="post-likes">
+          Liked by <strong>4GeeksAcademy</strong>, <strong>html5</strong>,
+          <strong>Web</strong> and <strong>100,000 others</strong>
+        </p>
+        <p class="post-caption">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam, sed
+          eaque. Repudiandae dolores eaque eveniet. Eum officia accusamus autem
+          voluptates, totam, alias provident, qui adipisci nemo hic magni.
+          Delectus, accusantium?
+        </p>
+      </div>
+    </article>
+  </body>
+</html>
